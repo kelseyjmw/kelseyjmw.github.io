@@ -84,6 +84,7 @@ function setGreen() {
     root.style.setProperty('--bold','black');
     root.style.setProperty('--body', '#f0f0f0');
     root.style.setProperty('--accent2', '#ffd97d')
+    root.style.setProperty('--text', 'white');
     currentTheme = "green";
     h1.style.setProperty('color', 'white');
     hero.style.backgroundImage="url(images/acnhbgdarker.png)";
