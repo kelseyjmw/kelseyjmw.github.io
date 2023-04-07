@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <title>KJM &#10047; Home</title>
+    </head>
+    <body>
+
+         <!--nav wrapper-->
+         <nav class="nav-wrapper">
+            <h1 class="logo">KELSEY<span>JM</span></h1>
+            <div class="mobile-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="nav">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="resume.html" class="nav">Resume</a></li>
+                    <li><a href="contact.html" class="nav">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="content">
+                
+                <!--flex item 1-->
+                <h3>About Me</h3>
+                <div class="home-content" id="about-top">
+                    <img src="images/house.jpeg" alt="animal crossing character" class="image">
+                    <div class="vision">
+                        <p>I'm currently a student in the Bachelor of Applied Computer Science degree program at
+                            Dalhousie University. This website will be the base for a future portfolio! I made this website in my CSCI 1170: Intro to Web Development class
+                            using HTML, CSS and a bit of Javascript!&#10047;
+                        </p>
+                        <p>
+                            I love playing video games, drawing and learning new things. I have recently started learning
+                            to bake cookies, I posted the recipe below! Thanks for visiting my website!&#10047;
+                        </p>
+                    </div>
+                </div>
+
+                <!--flex item 2-->
+                <div class="about-content">
+                    <div class="table">
+                        <table>
+                            <caption class="title">
+                                <h4>Chocolate Chip Cookies Recipe:</h4>
+                            </caption>
+                            <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Ingredient</th>
+                                    <th>Measurement</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="dry-ingredient">
+                                    <th rowspan="3">Dry</th>
+                                    <td>White Flour</td>
+                                <td>1&frac14; cups</td>
+                                </tr>
+                                <tr class="dry-ingredient">
+                                    <td>Baking Soda</td>
+                                    <td>&frac12; tsp</td>
+                                </tr>
+                                <tr class="dry-ingredient">
+                                    <td>Salt</td>
+                                    <td>&frac12; tsp</td>
+                                </tr>
+                                <tr class="cream-ingredient">
+                                    <th rowspan="3">Cream</th>
+                                    <td>Brown Sugar</td>
+                                    <td>&frac14; cups</td>
+                                </tr>
+                                <tr class="cream-ingredient">
+                                    <td>White Sugar</td>
+                                    <td>&frac12; cup</td>
+                                </tr>
+                                <tr class="cream-ingredient"> 
+                                    <td>Unsalted Margarine</td>
+                                    <td>&frac12; cup</td>
+                                </tr>
+                                <tr class="liquid-ingredient">
+                                    <th rowspan="2">Liquid</th>
+                                    <td>Egg</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr class="liquid-ingredient">
+                                    <td>Vanilla Extract</td>
+                                    <td>2 tsp</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3">1 Cup Chocolate Chips</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="directions">
+                        <div class="title">
+                        <h4>Directions:</h4>
+                        </div>
+                        <ol>
+                            <li>Preheat Oven to 350&#8457;.</li>
+                            <li>Cream together brown sugar, white sugar, and margarine in a large bowl.</li>
+                            <li>In another bowl, beat egg and vanilla together.</li>
+                            <li>Combine liquid ingredients with creamed ingredients until evenly mixed.</li>
+                            <li>In a separate bowl, combine flour, baking soda, and salt.</li>
+                            <li>Slowly mix dry ingredients with the previously combined ingredients.</li>
+                            <li>Once evenly mixed, carefully fold in chocolate chips.</li>
+                            <li>Bake at 350&#8457; for 10-15 minutes.</li>
+                            <li> *Optional* Add extra chocolate chips and a pinch of salt on top
+                                of the cookies about 2 minutes before they're finished baking.</li>
+                            <li>Let cool for 2-5 minutes, then enjoy!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="foot-holder">
+                    <p>&copy; Copyright 2023 Kelsey White. All Rights Reserved</p>
+                    <div class="social">
+                        <a href="https://twitter.com/kelseycrosses/" target="_blank"><img src="images/twitter1.png" alt="twitter icon"></a>
+                        <a href="https://www.instagram.com/kelseycrosses/" target="_blank"><img src="images/instagram1.png" alt="instagram icon"></a>
+                    </div>
+                    <div class="button-container">
+                        <input type="button" value="Make it Pink!" id="pink-button">
+                        <input type="button" value="Make it Blue!" id="blue-button">
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
