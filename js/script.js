@@ -1,6 +1,4 @@
 /**
- * CSCI 2170 Assignment 1 | JavaScript
- * Kelsey White | B00920596
  * 
  * Retreive data from [4] PokeAPI. https://pokeapi.co/. Accessed 18 Jan. 2025.
  * This data is used to display Pokemon details for several pages on OakDB.
@@ -20,7 +18,7 @@ let searchType = "";
 let filterData = "";
 
 /**
- * Load all Pokemon before searching. I think I should try to use this function for filter too
+ * Load all Pokemon.
  */
 async function loadAll() {
     const offset = (page - 1) * itemsPerPage;
