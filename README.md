@@ -39,7 +39,7 @@ details.html:
 **APIs used**
 <br>
 PokeAPI: https://pokeapi.co/api/v2/
-I have used various endpoints from this API to get information for the Pokemon.
+Used various endpoints from this API to get information for the Pokemon.
 
 ## Citations & Acknowledgements
 
