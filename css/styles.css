@@ -1,0 +1,129 @@
+:root {
+    --theme1: #203C73;
+    --theme2: #2C7BBF;
+    --theme3: #F2B807;
+    --theme4: #BF920A;
+    --theme5: #0D0D0D;
+}
+html, body, main {
+    min-height: 100vh;
+}
+.table-group-divider {
+    border-top: 3px solid var(--theme2) !important;
+}
+main {
+    background-color: #d9dcdf;
+    margin: 0 auto;
+}
+.navbar {
+    background-color: var(--theme2);
+}
+.navbar a {
+    color: white;
+}
+.navbar a:hover {
+    color: var(--theme3);
+}
+.navbar a:focus {
+    color: var(--theme3);
+}
+#logo {
+    width: 15rem;
+}
+#search-container {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    margin: 0 auto;
+}
+#see-more-btn {
+    display: none;
+}
+.oak-btn-blue {
+    background-color: var(--theme2);
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.oak-btn-blue:hover {
+    background: var(--theme1);
+}
+.oak-btn-blue:active {
+    background-color: var(--theme1);
+    transform: translateY(4px);
+}
+.form-check {
+    display: flex !important;
+    height: 15vh !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    overflow: scroll;
+}
+.card-img-top {
+    width: 60% !important;
+    margin: 0 auto;
+}
+#pokemon-img {
+    background-color: white;
+    border-radius: 0.5rem;
+}
+#details-container {
+    background-color: white
+}
+#moves-table {
+    overflow: scroll;
+}
+#version-dropdown-options {
+    max-height: 30vh;
+    overflow: scroll;
+}
+#move-search-result {
+    background-color: var(--theme3);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    display: none;
+}
+.nav-link.active {
+background-color: #2C7BBF !important;
+color: white !important;
+}
+footer {
+    background-color: var(--theme2);
+    min-height: 10vh;
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    #search-container {
+        justify-content: start;
+        align-items: start;
+    }
+    .form-check {
+        height: 25vh;
+    }
+    .heading {
+        width: 80%;
+    }
+  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #pokemon-img {
+        width: 40%;
+    }
+  }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .heading {
+        width: 50%;
+    }
+    .form-check {
+        overflow: hidden;
+    }
+  }
+  
